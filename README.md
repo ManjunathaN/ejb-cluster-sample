@@ -1,4 +1,4 @@
-`./run-server.sh`
+`./run-server.sh`  
 `cd psi-client && mvn test`
 
 on docker console you should be able to see -- implies that all the three servers are participating in cluster.
