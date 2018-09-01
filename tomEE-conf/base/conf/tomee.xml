@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomee>
+
+<!-- <Container id="Stateless Container" type="STATELESS">
+  AccessTimeout = 0 milliseconds
+  MaxSize = 10
+  MinSize = 0
+  StrictPooling = true
+  MaxAge = 0 hours
+  IdleTimeout = 0 minutes
+</Container> -->
+
+<!-- <JndiProvider id="shoe" type="javax.naming.InitialContext">
+  java.naming.factory.initial org.apache.openejb.client.RemoteInitialContextFactory 
+  java.naming.provider.url ejbd://127.0.0.1:4201
+</JndiProvider> -->
+
+	<Deployments dir="apps" />
+<!-- <Deployments jar="C:\data\easytravel\Distribution\dist\com.dynatrace.easytravel.business.ejb.jar" /> -->
+</tomee>
